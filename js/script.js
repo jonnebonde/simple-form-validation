@@ -6,7 +6,7 @@ const lastNameError = document.querySelector("#lastNameError");
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
 
-function validateForm() {
+function validateForm(event) {
     event.preventDefault();
 
     if (checkLength(firstName.value, 0) === true) {
