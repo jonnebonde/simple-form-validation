@@ -39,10 +39,15 @@ function validateForm(event) {
     //     lastNameError.style.display = "block";
     // }
 
-    console.log("hello");
+    console.log(validateForm);
 }
 
 form.addEventListener("submit", validateForm);
+
+
+
+
+
 
 function checkLength(value, len) {
     if (value.trim().length > len) {
